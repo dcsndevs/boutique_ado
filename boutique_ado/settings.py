@@ -175,7 +175,7 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 dotenv_path = os.path.join(os.path.dirname(__file__), 'sec.env')
-load_dotenv(dotenv_path)
+#load_dotenv(dotenv_path)
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
